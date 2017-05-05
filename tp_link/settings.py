@@ -96,7 +96,7 @@ ITEM_PIPELINES = {
 MYSQL_HOST = 'localhost'
 MYSQL_DB = 'tp_app'
 MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'zuowoziji123'
+MYSQL_PASSWORD = 'tplink123'
 MYSQL_PORT = 3306
 MYSQL_CHARSET = 'utf8'
 # 全部爬虫

@@ -24,7 +24,7 @@ class MySQLStoreTpLinkPipeline(object):
         self.db = MySQLdb.connect(
             "localhost",
             "root",
-            "zuowoziji123",
+            "tplink123",
             "tp_app"
         )
         self.cursor = self.db.cursor()
