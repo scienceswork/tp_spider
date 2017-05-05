@@ -17,8 +17,8 @@ class TeknosaSpider(scrapy.Spider):
     # 链接数据库
     db = MySQLdb.connect(
         "localhost",
-        "homestead",
-        "secret",
+        "root",
+        "tplink123",
         "tp_app"
     )
     # 获得cursor

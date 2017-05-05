@@ -9,8 +9,8 @@ import csv
 # 链接数据库
 db = MySQLdb.connect(
     "localhost",
-    "homestead",
-    "secret",
+    "root",
+    "tplink123",
     "spider"
 )
 # 获得游标

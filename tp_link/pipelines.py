@@ -23,8 +23,8 @@ class MySQLStoreTpLinkPipeline(object):
         self.db_pool = db_pool
         self.db = MySQLdb.connect(
             "localhost",
-            "homestead",
-            "secret",
+            "root",
+            "zuowoziji123",
             "tp_app"
         )
         self.cursor = self.db.cursor()
